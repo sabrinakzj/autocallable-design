@@ -51,14 +51,14 @@ cd autocallable-design
 ```python main.py
 ```
 
-## The program will sequentially:
+### The program will sequentially:
 Fetch the latest Hang Seng Index price
 Run pricing under both GBM and Heston models
 Compute Greeks and scenario analysis
 Generate charts and term sheets
 Execute delta hedging backtest
 
-## Generated Termsheet
+### Generated Termsheet
 
 outputs.pdf will include:
 Product summary and payoff mechanism
