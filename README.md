@@ -44,7 +44,8 @@ Ensure you have Python 3.8 or higher installed.
 
 ```bash
 git clone https://github.com/sabrinakzj/autocallable-design.git
-cd autocallable-design```
+cd autocallable-design
+```
 
 **### 2. Run the Main Program**
 python main.py
