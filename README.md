@@ -52,20 +52,20 @@ cd autocallable-design
 ```
 
 ### The program will sequentially:
-Fetch the latest Hang Seng Index price
-Run pricing under both GBM and Heston models
-Compute Greeks and scenario analysis
-Generate charts and term sheets
-Execute delta hedging backtest
+Fetch the latest Hang Seng Index price.
+Run pricing under both GBM and Heston models.
+Compute Greeks and scenario analysis.
+Generate charts and term sheets.
+Execute delta hedging backtest.
 
 ### Generated Termsheet
 
 outputs.pdf will include:
-Product summary and payoff mechanism
-Key definitions
-Pricing results and Greeks
-Scenario analysis table
-Important disclaimers
+Product summary and payoff mechanism.
+Key definitions.
+Pricing results and Greeks.
+Scenario analysis table.
+Important disclaimers.
 
 **This code is for educational and research purposes only and does not constitute any investment advice or trading recommendation.
 All pricing and risk data are indicative estimates only. Actual trading should reference official documents and market quotes.
