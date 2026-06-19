@@ -47,8 +47,9 @@ git clone https://github.com/sabrinakzj/autocallable-design.git
 cd autocallable-design
 ```
 
-**### 2. Run the Main Program**
-python main.py
+### 2. Run the Main Program
+```python main.py
+```
 
 ## The program will sequentially:
 Fetch the latest Hang Seng Index price
@@ -57,7 +58,7 @@ Compute Greeks and scenario analysis
 Generate charts and term sheets
 Execute delta hedging backtest
 
-**## Generated Termsheet**
+## Generated Termsheet
 
 outputs.pdf will include:
 Product summary and payoff mechanism
