@@ -17,7 +17,7 @@ This project implements a complete workflow—from market data fetching and Mont
 ---
 
 ## 📂 Project Structure
-autocallable-design/
+autocallable-design/  
 ├── main.py # Main entry point – runs the entire pipeline  
 ├── config.py # Configuration (product terms, market params, proxy settings)  
 ├── simulation.py # GBM simulation & core pricing engine  
@@ -51,11 +51,11 @@ cd autocallable-design
 ```
 
 ### The program will sequentially:
-Fetch the latest Hang Seng Index price.
-Run pricing under both GBM and Heston models.
-Compute Greeks and scenario analysis.
-Generate charts and term sheets.
-Execute delta hedging backtest.
+Fetch the latest Hang Seng Index price  
+Run pricing under both GBM and Heston models  
+Compute Greeks and scenario analysis  
+Generate charts and term sheets  
+Execute delta hedging backtest  
 
 ### Generated Termsheet
 
