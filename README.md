@@ -18,21 +18,20 @@ This project implements a complete workflow—from market data fetching and Mont
 
 ## 📂 Project Structure
 autocallable-design/
-├── main.py # Main entry point – runs the entire pipeline
-├── config.py # Configuration (product terms, market params, proxy settings)
-├── simulation.py # GBM simulation & core pricing engine
-├── heston.py # Heston model simulation & pricing
-├── greeks.py # Greeks calculation (finite difference)
-├── analysis.py # Scenario analysis & charting
-├── hedging.py # Delta hedging backtest module
-├── generate_termsheet.py # Termsheet generator (TXT & PDF)
-├── outputs/ # Auto-generated after running (results, charts, term sheets)
-│ ├── Termsheet.txt
-│ ├── Termsheet.pdf
-│ ├── path_simulation.png
-│ ├── payoff_distribution.png
-│ └── hedging_backtest.png
-└── README.md
+├── main.py # Main entry point – runs the entire pipeline  
+├── config.py # Configuration (product terms, market params, proxy settings)  
+├── simulation.py # GBM simulation & core pricing engine  
+├── heston.py # Heston model simulation & pricing  
+├── greeks.py # Greeks calculation (finite difference)  
+├── analysis.py # Scenario analysis & charting  
+├── hedging.py # Delta hedging backtest module  
+├── generate_termsheet.py # Termsheet generator (TXT & PDF)  
+├── outputs/ # Auto-generated after running (results, charts, term sheets)  
+│ ├── Termsheet.txt  
+│ ├── path_simulation.png  
+│ ├── payoff_distribution.png  
+│ └── hedging_backtest.png  
+└── README.md  
 
 ---
 
