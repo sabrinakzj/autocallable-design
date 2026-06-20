@@ -63,12 +63,12 @@ Execute delta hedging backtest
 
 ### Generated Termsheet
 
-outputs.pdf will include:
-Product summary and payoff mechanism.
-Key definitions.
-Pricing results and Greeks.
-Scenario analysis table.
-Important disclaimers.
+outputs.pdf will include:  
+Product summary and payoff mechanism.  
+Key definitions.  
+Pricing results and Greeks.  
+Scenario analysis table.  
+Important disclaimers.  
 
 
 **This code is for educational and research purposes only and does not constitute any investment advice or trading recommendation.
