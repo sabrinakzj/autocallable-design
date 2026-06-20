@@ -59,16 +59,13 @@ Compute Greeks and scenario analysis
 Generate charts and term sheets  
 Execute delta hedging backtest  
 
-## 📒 Output
+## 📒 What Output include:
 
-### Generated Termsheet
-
-outputs.pdf will include:  
-Product summary and payoff mechanism.  
-Key definitions.  
-Pricing results and Greeks.  
-Scenario analysis table.  
-Important disclaimers.  
+(1)Product summary and payoff mechanism  
+(2)Key definitions  
+(3)Pricing results and Greeks  
+(4)Scenario analysis table  
+(5)Important disclaimers  
 
 
 **This code is for educational and research purposes only and does not constitute any investment advice or trading recommendation.
