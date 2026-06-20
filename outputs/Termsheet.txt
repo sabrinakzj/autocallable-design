@@ -1,0 +1,118 @@
+
+══════════════════════════════════════════════════════════════════════
+                    AUTOCALLABLE STRUCTURED NOTE
+                Linked to Hang Seng Index (HSI)
+                    2.0 Years Tenor | Quarterly Observation
+══════════════════════════════════════════════════════════════════════
+
+1. PRODUCT SUMMARY
+──────────────────────────────────────────────────────────────────────
+Issuer               : [Bank Name] Hong Kong Branch
+Product Type         : Equity-Linked Structured Note with Autocallable Feature
+Underlying Asset     : Hang Seng Index (HSI) - Bloomberg Ticker: HSI <Index>
+Currency             : HKD
+Tenor                : 2.0 Years
+Principal Amount     : HKD 1,000,000 per Note (minimum subscription)
+Issue Date           : [TBD]
+Maturity Date        : [TBD] (2.0 Years from Issue Date)
+Initial Level        : Official closing level of HSI on Issue Date
+Current Level (S₀)   : 23924.81 (as of 2026-06-19)
+Observation Dates    : Quarterly (8 observations in total)
+
+──────────────────────────────────────────────────────────────────────
+
+2. COUPON & PAYOFF MECHANISM
+──────────────────────────────────────────────────────────────────────
+Coupon Rate          : 12.00% p.a. (paid quarterly, i.e., 3.00% per quarter)
+
+┌────────────────────┬────────────────────┬──────────────────────────────┐
+│ Observation        │ Status             │ Payoff per HKD 100 Notional  │
+│ Frequency          │                    │                              │
+├────────────────────┼────────────────────┼──────────────────────────────┤
+│ Quarterly          │ Knock-Out          │ 100 + accrued coupon         │
+│ (8 in total)       │ (≥ 100% of       │ (3.00% per quarter)  │
+│                    │  Initial Level)    │ → Note matures early         │
+├────────────────────┼────────────────────┼──────────────────────────────┤
+│ At Maturity        │ No Knock-Out       │ 100 + 0%          │
+│                    │ No Knock-In        │ (full 2.0 Years coupon)           │
+├────────────────────┼────────────────────┼──────────────────────────────┤
+│ At Maturity        │ No Knock-Out       │ 100 × (Final Level / Initial │
+│                    │ Knock-In           │ Level) → Principal loss      │
+│                    │ (≤ 70% of        │ possible                      │
+│                    │  Initial Level)    │                              │
+└────────────────────┴────────────────────┴──────────────────────────────┘
+
+──────────────────────────────────────────────────────────────────────
+
+3. KEY DEFINITIONS
+──────────────────────────────────────────────────────────────────────
+Knock-Out Event     : On any Observation Date, the official closing 
+                      level of HSI ≥ 100% of Initial Level.
+
+Knock-In Event      : On any scheduled trading day during the 
+                      Observation Period, the official closing level 
+                      of HSI ≤ 70% of Initial Level.
+
+Observation Period  : From Issue Date to Maturity Date (inclusive).
+
+──────────────────────────────────────────────────────────────────────
+
+4. INDICATIVE PRICING (as of 2026-06-19)
+──────────────────────────────────────────────────────────────────────
+Underlying Price (S₀)     : 23924.81
+Implied Volatility (σ)    : 22.00%
+Risk-Free Rate (r)        : 3.50%
+────────────────────────────────────────────────────────────────────
+│ Metric                             │ Value                     │
+├────────────────────────────────────┼───────────────────────────┤
+│ Fair Value (per HKD 100 notional)  │ 96.5538      │
+│ Knock-Out Probability              │ 87.28%         │
+│ Knock-In Probability               │ 15.21%         │
+└────────────────────────────────────┴───────────────────────────┘
+
+──────────────────────────────────────────────────────────────────────
+
+5. KEY GREEKS EXPOSURE (indicative)
+──────────────────────────────────────────────────────────────────────
+│ Greek  │ Definition                             │ Value       │
+├────────┼────────────────────────────────────────┼─────────────┤
+│ Delta  │ Price change per 1% move in HSI        │ 0.0002 │
+│ Gamma  │ Rate of change of Delta                │ -0.0000 │
+│ Vega   │ Price change per 1% move in volatility │ -52.1976  │
+│ Rho    │ Price change per 1% move in interest   │ -54.3144   │
+└────────┴────────────────────────────────────────┴─────────────┘
+
+⚠️ Key Insight: Vega is typically NEGATIVE for Autocallable structures.
+   Higher volatility → Higher Knock-In probability → Lower Note value.
+
+──────────────────────────────────────────────────────────────────────
+
+6. SCENARIO ANALYSIS (illustrative)
+──────────────────────────────────────────────────────────────────────
+       Scenario  Fair Value  Knock-Out Prob  Knock-In Prob
+      Base Case   96.468261         0.86898        0.15440
+       High Vol   96.543429         0.87161        0.15275
+        Low Vol   96.480164         0.87236        0.15248
+      High Rate   96.494156         0.87151        0.15169
+       Low Rate   96.485428         0.87158        0.15503
+Loose KO (105%)   96.542027         0.87240        0.15153
+Strict KO (95%)   96.515686         0.87189        0.15160
+
+──────────────────────────────────────────────────────────────────────
+
+7. IMPORTANT DISCLAIMERS
+──────────────────────────────────────────────────────────────────────
+This document is for informational and educational purposes only 
+and does not constitute an offer, solicitation, or recommendation 
+to purchase or sell any financial instrument. The pricing and 
+scenario figures shown are indicative only and may change based 
+on market conditions.
+
+Past performance is not indicative of future results. Investors 
+should read the final offering documents and consult their own 
+professional advisors before making any investment decision.
+
+──────────────────────────────────────────────────────────────────────
+                    FOR INTERNAL / EDUCATIONAL USE ONLY
+                           [Generated on: 2026-06-19]
+══════════════════════════════════════════════════════════════════════
